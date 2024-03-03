@@ -1,10 +1,13 @@
 In this example, I created 3 classes to print a person's personal info. Their personal info includes their first name, last name, date of birth (day, month, year), and their personal ID. Now given we are going to output a person's personal info. I have extracted the data and the operations that should be performed on this data. So, I created 3 classes and they are:
 
-1- dateType (which is a person date of birth) 2- personType (stores the first and last name of this person) 3- personalInfo (encapsulates the date of birth and the name inside the class and stores the personalID of that person)
+1- dateType (which is a person date of birth) 
+2- personType (stores the first and last name of this person)
+3- personalInfo (encapsulates the date of birth and the name inside the class and stores the personalID of that person)
 
 Now we ask ourselves, how do we relate those classes? the answer is simple there are two ways to relate to classes:
 
-1- Inheritance which is a "is a" relationship eg. (every employee is a person) 2- Composition which is a "has a" relationship eg. (every person has a date of birth)
+1- Inheritance which is a "is a" relationship eg. (every employee is a person) 
+2- Composition which is a "has a" relationship eg. (every person has a date of birth)
 
 now let's look at the classes dateType and personType both have the date of birth and the name (first name, last name) of the person respectively. Therefore personalInfo HAS dateType and personType. We use composition in this example since the relation is "has a" not "is a".
 
